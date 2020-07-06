@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+		<title>Satoumi</title>
+	</head>
+
+	<body> 
+
+		<!-- Header -->
+
+		<header>
+			<h1> <a href="index.html" class="logo">Louis-Philippe Tardif</a> </h1>
+
+			<nav>
+				<ul>
+					<li> <a href="index.html">Projets</a> </li>
+					<li> <a href="touchdesigner.html">Touchdesigner</a> </li>
+					<li> <a href="3D_Renders.html">3D Renders</a> </li> 
+					<li> <a href="Biographie.html">Biographie</a> </li>
+					<li> <a href="Contact.html"> Contact</a> </li>
+				</ul>
+			</nav>
+
+			<hr/>
+			
+
+		</header>
+
+		<!-- Body -->
+
+		<h1>Satoumi</h1>
+
+		<section class = 'Satoumi'>
+			<div> <img src="images/Satoumi/Satoumi01.jpg" alt="Jellyfish"> </a> </div>
+			<div> <img src="images/Satoumi/Satoumi02.jpg" alt="Jellyfish"> </a> </div>
+			<div> <img src="images/Satoumi/Satoumi03.jpg" alt="Koi fish"> </a> </div>
+		</section>
+
+		<section class="texte">
+
+			<p>A project by UQAM interactive media students Chloé Champoux-Réhaume, Camille Pépin and Louis-Philippe Tardif.</p>
+
+			<p>Satoumi reflects on the link between humans and the ocean life in Japan. It questions the ressemblances that unite theses worlds living together, while demonstrating their differences. We were inspired by the japanese concept of Satoumi, which means the interaction between human and nature with the goal of protect our ecosystem.The fact that Japan is surrounded by nature and water, and that the two live together inspired us to create something that reflected that harmony between the two.As the film progresses, rythm and aesthectics slowly changes. The projection start with slow, weightlessness, calm images of japan sea life. During this sequence, jellyfish, koi fish, seaweed and bioluminescence creatures move slowly in different sequences.This environnement transform into tokyo city nightlife, as we go from slow curvy lines and textures to straight forms and flashing lights from the city. The environment is composed of buildings with flamboyant reflections, cajoled by a phosphorescent moon that imposes itself in the city. The spectator will explore the narrow lines of the alleys, the flats piled up and the architectural disorder of the city.</p>
+
+			<p>The film explore nature and city environnement by mixing 3D and hand drawn 2D animation. It also demonstrates rotoscoping on underwater footage of sea creatures.The general aesthetics of Satoumi is inspired by retro futurism, abstract art and 3D art.  For most of the video, we use saturated neon colors in dark background to demonstrate the aesthetic of bioluminescent underwater creatures and the dynamic tokyo city nightlife. Neon colors also play role in the link between the two worlds.</p>
+
+			<p>Bioluminescent sea life : Bioluminescent sea life is shown in a bright, relaxing and slow way to express the beauty of nature in Japan.</p>
+
+			<p>Tokyo Nightlife : With the Tokyo nightlife we want to show the place that a human left in the environnement. A light stroke is the perfect example to show that when we take the time to see the impact of human life we can see beautiful things that we may have missed.</p>
+
+			<div class = "video"> 
+				<iframe src="https://player.vimeo.com/video/320645651" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> 
+			</div>
+
+		</section>
+
+		<!-- Go to top Button -->
+		<img src="images/Icons/gototop.png" onclick="topFunction()" id="myBtn" title="Go to top" style = "width: 3%; height: 7%; ">
+
+		<!-- Footer -->
+
+		<footer class = "footer">
+			
+			<div class = "social">
+				<a href="https://www.instagram.com/interactive_lt/"> <img src="images/Social/instagram.png" alt="instagram" style = "width: 30px; height: 30px;">  </a>
+				<a href="https://www.linkedin.com/in/louis-philippe-tardif-5b3928139/"> <img src="images/Social/linkedin.png" alt="linkedin"  style = "width: 30px; height: 30px;">  </a>
+				<a href="https://vimeo.com/louislp19"> <img src="images/Social/vimeo.png" alt="vimeo" style = "width: 30px; height: 30px;">  </a>
+				<a href="https://github.com/louislp19"> <img src="images/Social/github.png" alt="github" style = "width: 30px; height: 30px;">  </a>
+			</div>
+			
+			<h2> Copyright © 2019 LouisPhilippeTardif.com - Tous droits réservés </h2>
+
+		</footer>
+
+	</body>
+
+</html>
+
+
+<script type="text/javascript">
+	
+	//Get the button:
+	mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+  		if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    		mybutton.style.display = "block";
+  		} else {
+    		mybutton.style.display = "none";
+  		}
+	}	
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+  		document.body.scrollTop = 0; // For Safari
+  		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+
+</script>
