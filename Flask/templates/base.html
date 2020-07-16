@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google-site-verification" content="qboQUlEcbeUAuwuHFs4MvlfaXllzCVwGKuiXu7ggpCE" />
+		<meta name="msvalidate.01" content="191AB9959307F88D6750031B39C3B357" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="static/css/style.css">
+		<meta charset="utf-8">
+		<title>{% block title %}{% endblock %}</title>
+	</head>
+
+	<body> 
+
+		<header>
+			<h1> <a href="/home" class="logo">Louis-Philippe Tardif</a> </h1>
+
+			<nav>
+				<ul>
+					<li> <a href="/home">Projets</a> </li>
+					<li> <a href="/touchdesigner">Touchdesigner</a> </li>
+					<li> <a href="/3D_render">3D Renders</a> </li> 
+					<li> <a href="/bio">Biographie</a> </li>
+					<li> <a href="/contact"> Contact</a> </li>
+				</ul>
+			</nav>
+
+			<hr/>
+			
+
+		</header>
+
+		{% block content %} 
+
+		{% endblock %}
+
+
+		<footer class = "footer">
+			
+			<div class = "social">
+				<a href="https://www.instagram.com/interactive_lt/"> <img src="static/img/images/Social/instagram.png" alt="instagram" style = "width: 30px; height: 30px;">  </a>
+				<a href="https://www.linkedin.com/in/louis-philippe-tardif-5b3928139/"> <img src="static/img/images/Social/linkedin.png" alt="linkedin"  style = "width: 30px; height: 30px;">  </a>
+				<a href="https://vimeo.com/louislp19"> <img src="static/img/images/Social/vimeo.png" alt="vimeo" style = "width: 30px; height: 30px;">  </a>
+				<a href="https://github.com/louislp19"> <img src="static/img/images/Social/github.png" alt="github" style = "width: 30px; height: 30px;">  </a>
+
+			</div>
+
+			<p> </p>
+			<h2> Copyright © 2019 LouisPhilippeTardif.com - Tous droits réservés </h2>
+
+		</footer>
+
+	</body>
+
+</html>
